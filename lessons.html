@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENVIRONs - Lessons</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="https://i.ibb.co/L93845b/logo.png" alt="ENVIRONs Logo">
+                <a href="index.html">ENVIRONs</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="lessons.html">Lessons</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="leaderboard.html">Leaderboard</a></li>
+            </ul>
+            <button class="hamburger" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="content">
+        <section id="lessons-section">
+            <h1 class="page-heading">Lessons</h1>
+            <div class="lessons-container">
+                <div class="lesson-card">
+                    <h3>Lesson 1: The Water Cycle</h3>
+                    <p>Learn about how water moves around our planet and how to conserve it.</p>
+                    <a href="https://en.wikipedia.org/wiki/Water_cycle" target="_blank" class="wiki-link">Read More on Wikipedia</a>
+                    <button class="start-quiz-btn" data-lesson="1">Start Quiz</button>
+                </div>
+                <div class="lesson-card">
+                    <h3>Lesson 2: Renewable Energy</h3>
+                    <p>Explore different types of clean energy sources like solar and wind power.</p>
+                    <a href="https://en.wikipedia.org/wiki/Renewable_energy" target="_blank" class="wiki-link">Read More on Wikipedia</a>
+                    <button class="start-quiz-btn" data-lesson="2">Start Quiz</button>
+                </div>
+                <div class="lesson-card">
+                    <h3>Lesson 3: Waste Management</h3>
+                    <p>Discover the 3 Rs: Reduce, Reuse, Recycle, and their importance.</p>
+                    <a href="https://en.wikipedia.org/wiki/Waste_management" target="_blank" class="wiki-link">Read More on Wikipedia</a>
+                    <button class="start-quiz-btn" data-lesson="3">Start Quiz</button>
+                </div>
+            </div>
+        </section>
+        
+        <section id="quiz-container" class="hidden-quiz">
+            <h2 class="quiz-heading">Eco-Warrior Quiz</h2>
+            <form id="quiz-form">
+                </form>
+            <button id="submit-quiz-btn" class="hidden-quiz">Submit Quiz</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
